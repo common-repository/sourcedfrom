@@ -1,0 +1,18 @@
+/*
+ Forward compatibility for WordPress style classes.
+ Makes post class styling in current WP version compatible with previous WP versions.
+ Last Mod: 10 Jun 2009.
+*/
+
+.post .alignright, .entry  .alignright {
+float:right;
+margin-left:10px;
+}
+.post .alignleft, .entry  .alignleft  {
+float:left;
+margin-right:10px;
+}
+.post .aligncenter, .entry  .aligncenter  {
+margin:0 auto;
+display:block;
+}

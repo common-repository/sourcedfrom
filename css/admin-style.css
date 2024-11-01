@@ -1,0 +1,64 @@
+.column-blogaccount { width: 270px; }
+
+.column-blogsaccount { width: 42%; }
+
+.column-entriesauthor { width: 185px; }
+
+.column-accessaddress { width: 50%; }
+
+.column-sfdate { width: 170px; }
+
+#sf_h3 {
+	font: normal 15px Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	padding: 3px 0 0 0;
+	margin: 0;
+}
+
+.submit { float: right; }
+
+.sf_right { float: right; }
+
+#sf_error {
+	margin: 0 0 16px 8px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 12px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: #FFEBE8;
+	border-color: #CC0000;
+	font-size: 85%;
+}
+
+#cc_info  { margin-top: 5px; }
+
+#cc_info  h3 {
+	margin: 0;
+	padding: 8px 0 5px 0;
+}
+
+#cc_jurisdiction_Obj { margin-bottom: 7px; }
+
+.cs_message { clear: both; }
+
+
+#adminmenu #toplevel_page_sourcedfrom-sourcedfrom_wp_plugin div.wp-menu-image {
+	background: transparent url("../images/sf_menu.png") no-repeat scroll -2px -32px;
+}
+
+#adminmenu #toplevel_page_sourcedfrom-sourcedfrom_wp_plugin:hover div.wp-menu-image,
+#adminmenu #toplevel_page_sourcedfrom-sourcedfrom_wp_plugin.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url("../images/sf_menu.png") no-repeat scroll -2px 0px;
+}
+
+
+#adminmenu #toplevel_page_sourcedfrom_plugin div.wp-menu-image {
+	background: transparent url("../images/sf_menu.png") no-repeat scroll -2px -32px;
+}
+
+#adminmenu #toplevel_page_sourcedfrom_plugin:hover div.wp-menu-image,
+#adminmenu #toplevel_page_sourcedfrom_plugin.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url("../images/sf_menu.png") no-repeat scroll -2px 0px;
+}
